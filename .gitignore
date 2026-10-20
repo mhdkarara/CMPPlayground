@@ -1,0 +1,15 @@
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+*.apk
+*.aab
+*.jks
+*.keystore
+.DS_Store
+app/src/commonMain/composeResources/files/translation-*.json
+app/src/commonMain/composeResources/files/asset-*.json
+app/src/commonMain/composeResources/files/metadata.json
+google-services.json
