@@ -23,8 +23,6 @@ Both apps render the same shared Compose UI. SwiftUI snippets are learning mater
 - [Development workflow](#development-workflow)
 - [Troubleshooting](#troubleshooting)
 - [Learning resources](#learning-resources)
-- [Current scope](#current-scope)
-- [Example ownership](#example-ownership)
 
 ## Who this repository is for
 
@@ -400,13 +398,3 @@ When documenting a change, state what behavior changed, how to reproduce it, whi
 - [SwiftUI to Compose](docs/SWIFTUI_TO_COMPOSE.md): conceptual mappings for SwiftUI developers.
 - [CMP Learning Guide](CMP_LEARNING_GUIDE.md): original scenario exercises, platform integration, and calculator walkthroughs.
 - [Progress log](PROGRESS.md): completed work, remaining features, and verification status.
-
-## Current scope
-
-This is an active learning project. Remaining work includes route-based navigation, Todo/Products/Settings playgrounds, expanded lessons, state restoration and navigation exercises, and accessibility and runtime verification. See [PROGRESS.md](PROGRESS.md) for tracked implementation status.
-
-## Example ownership
-
-The component catalog uses original trail-planning scenarios written for CMP Playground. The previews, lesson identifiers, SwiftUI/Compose comparison excerpts, and bundled `trail_marker.xml` illustration are maintained in this repository. Code comparisons are focused learning excerpts; they are not complete standalone applications.
-
-Frameworks, libraries, and generated tooling retain their own licenses. In particular, keep the Gradle wrapper's license headers when maintaining the build scripts.
